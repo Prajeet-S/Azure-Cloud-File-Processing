@@ -4,6 +4,7 @@ A serverless file processing system built using Azure Blob Storage, Azure Functi
 
 ## Architecture
 
+```text
 File uploaded to Blob Storage
         ↓
 Blob Trigger
@@ -17,6 +18,7 @@ Message sent to Azure Queue
 Queue Trigger
         ↓
 Message processed and logged
+```
 
 ## Technologies Used
 
